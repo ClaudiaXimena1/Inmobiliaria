@@ -1,0 +1,11 @@
+INSERT INTO tipo_identificacion (codigo, descripcion) VALUES ('PA','Pasaporte');
+INSERT INTO tipo_identificacion (codigo, descripcion) VALUES ('TI','Tarjeta de Identidad');
+INSERT INTO tipo_identificacion (codigo, descripcion) VALUES ('CC','Cédula de Ciudadanía');
+INSERT INTO tipo_identificacion (codigo, descripcion) VALUES ('CE','Cédula de Extranjería');
+INSERT INTO tipo_identificacion (codigo, descripcion) VALUES ('LC','Licencia de Conducción');
+INSERT INTO usuario (numero_identificacion, nombres, apellidos, direccion, telefono, email, password, td_id) VALUES (222333444, 'Carlos', 'Benitez', 'Calle 4 3-21', 66633322, 'carlos.b@gmail.com', 'carlos1212', 3);
+INSERT INTO usuario (numero_identificacion, nombres, apellidos, direccion, telefono, email, password, td_id) VALUES (662333555, 'Teresa', 'Benitez', 'Calle 4 3-21', 66633322, 'teresa12.b@gmail.com', 'teresa13366', 2);
+INSERT INTO usuario (numero_identificacion, nombres, apellidos, direccion, telefono, email, password, td_id) VALUES (66981922, 'Camilo Andrés', 'Cifuentes', 'Calle 5 8-27', 5552233, 'camilo.cif@gmail.com', 'camilo123', 1);
+INSERT INTO propiedad (area, num_habitaciones, num_banos, tipo_registro, valor, usuario_id) VALUES ('60 m2', 3, 2, 'Arriendo', 1200000.00, 1);
+INSERT INTO propiedad (area, num_habitaciones, num_banos, tipo_registro, valor, usuario_id) VALUES ('80 m2', 3, 3, 'Arriendo', 1500000.00, 2);
+INSERT INTO propiedad (area, num_habitaciones, num_banos, tipo_registro, valor, usuario_id) VALUES ('120 m2', 3, 3, 'Venta', 400000000.00, 3);
